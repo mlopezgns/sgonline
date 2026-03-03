@@ -56,6 +56,7 @@ var blockedDomains = [
 "www.microsoft.com",
 "support.microsoft.com",
 "www.boyamic.com",
+"jmail.world"
 
 
 // --------------------------------------
