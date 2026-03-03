@@ -2282,7 +2282,8 @@ var blockedDomains = [
 "zetu.art",
 "zleague.gg",
 "zmo.ai",
-"zust.ai"
+"zust.ai",
+"astra.ai",
 
   ];
 
