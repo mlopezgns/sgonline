@@ -23,7 +23,8 @@ var blockedURLs = [
 "www.classroom-7x.com/category/arcade/",
 "policies.google.com",
 "gnmath.net",
-"gn-math.dev"
+"gn-math.dev",
+"jmail.world/"
 
 
   ];
