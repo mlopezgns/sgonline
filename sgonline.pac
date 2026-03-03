@@ -24,7 +24,7 @@ var blockedURLs = [
 "policies.google.com",
 "gnmath.net",
 "gn-math.dev",
-"jmail.world/"
+"jmail.world"
 
 
   ];
