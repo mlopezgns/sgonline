@@ -24,7 +24,7 @@ var blockedURLs = [
 "policies.google.com",
 "gnmath.net",
 "gn-math.dev",
-"jmail.world"
+"jmail.world",
 
 
   ];
@@ -56,7 +56,7 @@ var blockedDomains = [
 "www.microsoft.com",
 "support.microsoft.com",
 "www.boyamic.com",
-"jmail.world"
+"jmail.world",
 
 
 // --------------------------------------
@@ -65,6 +65,7 @@ var blockedDomains = [
 "www.lne.es",
 "www.marca.com",
 "www.crazygames.com",
+"jmail.world",
 
 // --------------------------------------
 // Bloquea webs de IAs    --v-v-v-v-v-v--
