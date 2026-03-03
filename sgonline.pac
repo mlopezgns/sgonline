@@ -21,7 +21,8 @@ var blockedURLs = [
 "www.classroom-7x.com/",
 "linktr.ee/classroom.x7.games/",
 "www.classroom-7x.com/category/arcade/",
-"policies.google.com"
+"policies.google.com",
+"gnmath.net"
 
   ];
 
