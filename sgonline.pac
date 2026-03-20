@@ -14,7 +14,6 @@ var blockedURLs = [
 
 "www.crazygames.com/es/",
 "sites.google.com/view/classroom6x/",
-"classroom6x.github.io/",
 "classroom-6x.io/home/",
 "vicky.dev/classroom-6x-unblocked-games/",
 "sites.google.com/view/the-classroom-7x/",
@@ -40,8 +39,6 @@ var blockedDomains = [
 // --------------------------------------
 // Bloquea bypass Lazarus --v-v-v-v-v-v--
 // --------------------------------------
-"docs.github.com", // Pagina que abre al intentar hacer login, de la que sacan urls paralelas
-"github.com", // Principal origen del problema
 "microsoftonline.com", // Dominio principal del Single Sign-on de Microsoft
 "login.microsoftonline.com", //Dominio especifico del Single Sign-on de Microsoft
 // A continuación, las paginas principales que utilizan, que permiten un control mas quirurgico del bloqueo
