@@ -77,8 +77,6 @@ var blockedDomains = [
 "www.marca.com",
 "www.crazygames.com",
 "jmail.world",
-"youtube.com/embed",
-"www.youtube.com/embed/",
 
 
 // --------------------------------------
