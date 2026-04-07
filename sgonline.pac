@@ -2,6 +2,10 @@ function FindProxyForURL(url, host) {
   var block = "PROXY 127.0.0.1:0";  // Bloquea el tráfico
   var direct = "DIRECT";
 
+  if (url.indexOf("youtube.com/embed") !== -1) {
+    return block;
+  }
+
 
 // ==================================================================================
 // --- URL ESPECIFICAS A BLOQUEAR (Incluir sin http) ---
@@ -26,7 +30,7 @@ var blockedURLs = [
 "gn-math.dev",
 "jmail.world",
 "youtube.com/embed",
-"www.youtube.com/embed",
+"www.youtube.com/embed/",
 
 
   ];
@@ -61,7 +65,7 @@ var blockedDomains = [
 "jmail.world",
 "play.google.com",
 "youtube.com/embed",
-"www.youtube.com/embed",
+"www.youtube.com/embed/",
 
 
 // --------------------------------------
@@ -72,7 +76,7 @@ var blockedDomains = [
 "www.crazygames.com",
 "jmail.world",
 "youtube.com/embed",
-"www.youtube.com/embed",
+"www.youtube.com/embed/",
 
 
 // --------------------------------------
