@@ -35,7 +35,6 @@ var blockedURLs = [
 "jmail.world",
 "youtube.com/embed",
 "www.youtube.com/embed/",
-"https://www.youtube.com/embed",
 
 
   ];
@@ -69,8 +68,6 @@ var blockedDomains = [
 "www.boyamic.com",
 "jmail.world",
 "play.google.com",
-"youtube.com/embed",
-"www.youtube.com/embed/",
 
 
 // --------------------------------------
@@ -2326,12 +2323,15 @@ var blockedDomains = [
   }
 
 // --- BLOQUEO DE URLs ESPECÍFICAS ---
-  for (var j = 0; j < blockedURLs.length; j++) {
-    var specific = blockedURLs[j];
-    if (shExpMatch(url, "*://" + specific + "*")) {
-      return block;
-    }
+for (var j = 0; j < blockedURLs.length; j++) {
+  var specific = blockedURLs[j];
+  if (
+    shExpMatch(url, "http://" + specific + "*") ||
+    shExpMatch(url, "https://" + specific + "*")
+  ) {
+    return block;
   }
+}
 
 // --- TODO LO DEMÁS SE CONECTA DIRECTAMENTE ---
   return direct;
