@@ -2,7 +2,9 @@ function FindProxyForURL(url, host) {
   var block = "PROXY 127.0.0.1:0";  // Bloquea el tráfico
   var direct = "DIRECT";
 
-
+if (shExpMatch(url, "*youtube.com/embed*")) {
+    return block;
+}
 
 
 // ==================================================================================
