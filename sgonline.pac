@@ -6,6 +6,10 @@ if (shExpMatch(url, "*youtube.com/embed*")) {
     return block;
 }
 
+if ((host == "www.youtube.com" || host == "youtube.com") && url.indexOf("/embed") !== -1) {
+    return block;
+}
+
 
 // ==================================================================================
 // --- URL ESPECIFICAS A BLOQUEAR (Incluir sin http) ---
