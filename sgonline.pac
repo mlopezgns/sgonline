@@ -26,6 +26,7 @@ var blockedURLs = [
 "gn-math.dev",
 "jmail.world",
 "youtube.com/embed",
+"www.youtube.com/embed",
 
 
   ];
@@ -60,6 +61,7 @@ var blockedDomains = [
 "jmail.world",
 "play.google.com",
 "youtube.com/embed",
+"www.youtube.com/embed",
 
 
 // --------------------------------------
@@ -70,6 +72,7 @@ var blockedDomains = [
 "www.crazygames.com",
 "jmail.world",
 "youtube.com/embed",
+"www.youtube.com/embed",
 
 
 // --------------------------------------
