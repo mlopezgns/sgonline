@@ -37,6 +37,7 @@ var blockedURLs = [
 "www.youtube.com/embed/",
 
 
+
   ];
 
 
@@ -68,6 +69,7 @@ var blockedDomains = [
 "www.boyamic.com",
 "jmail.world",
 "play.google.com",
+"m.youtube.com",
 
 
 // --------------------------------------
