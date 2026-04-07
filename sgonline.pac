@@ -68,6 +68,8 @@ var blockedDomains = [
 "www.marca.com",
 "www.crazygames.com",
 "jmail.world",
+"youtube.com/embed",
+
 
 // --------------------------------------
 // Bloquea webs de IAs    --v-v-v-v-v-v--
