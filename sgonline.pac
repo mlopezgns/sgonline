@@ -2,9 +2,7 @@ function FindProxyForURL(url, host) {
   var block = "PROXY 127.0.0.1:0";  // Bloquea el tráfico
   var direct = "DIRECT";
 
-  if (url.indexOf("youtube.com/embed") !== -1) {
-    return block;
-  }
+
 
 
 // ==================================================================================
@@ -31,6 +29,7 @@ var blockedURLs = [
 "jmail.world",
 "youtube.com/embed",
 "www.youtube.com/embed/",
+"https://www.youtube.com/embed/",
 
 
   ];
