@@ -29,7 +29,7 @@ var blockedURLs = [
 "jmail.world",
 "youtube.com/embed",
 "www.youtube.com/embed/",
-"https://www.youtube.com/embed/",
+"https://www.youtube.com/embed",
 
 
   ];
