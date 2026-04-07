@@ -65,7 +65,6 @@ var blockedDomains = [
 "play.google.com",
 "youtube.com/embed",
 "www.youtube.com/embed/",
-"youtube.com",
 
 
 // --------------------------------------
