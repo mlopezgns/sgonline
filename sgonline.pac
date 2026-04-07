@@ -2326,8 +2326,10 @@ var blockedDomains = [
 for (var j = 0; j < blockedURLs.length; j++) {
   var specific = blockedURLs[j];
   if (
-    shExpMatch(url, "http://" + specific + "*") ||
-    shExpMatch(url, "https://" + specific + "*")
+    shExpMatch(url, "http://" + specific + "*")  ||
+    shExpMatch(url, "https://" + specific + "*") ||
+    shExpMatch(url, "http://www." + specific + "*")  ||
+    shExpMatch(url, "https://www." + specific + "*")
   ) {
     return block;
   }
