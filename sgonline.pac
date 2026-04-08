@@ -26,8 +26,6 @@ var blockedURLs = [
 "gnmath.net",
 "gn-math.dev",
 "jmail.world",
-"youtube.com/embed",
-"www.youtube.com/embed/",
 
 
 
